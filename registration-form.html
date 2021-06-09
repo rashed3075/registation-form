@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Registation Form</h1>
+	<form>
+		<fieldset>
+	<legend>Basic Information</legend>
+	<label for="fname">First Name</label>
+	<input type="text" name="fname" id="fname"><br><br>
+
+	<label for="lname">Last Name</label>
+	<input type="text" name="lname" id="lname"><br><br>
+
+	Gender <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+	<input type="radio" name="gender" id="female">  <label for="female">Female</label><br><br>
+
+	<label for="dob">Date of Birth </label>
+	<input type="Date" name="dob" id="dob"><br><br>
+
+	<label for="religion">Religion </label>
+	<select id="religion">
+
+		<option value="muslim">Muslim</option>
+		<option value="hindu">Hindu</option>
+		<option value="cristian">Cristian</option>
+		<option value="buddha">Buddha</option>
+		
+	</select>
+</fieldset> <br>
+
+<fieldset>
+	<legend>Contact Information</legend>
+	<label for="praddress">Present Address </label>
+	<textarea id="praddress" rows="2" cols="30"></textarea><br><br>
+
+	<label for="peaddress">Permanent Address </label>
+	<textarea id="peaddress" rows="2" cols="30"></textarea><br><br>
+
+	<label for="phoneNumber">Phone </label>
+	<input type="tel" name="phoneNumber" id="phoneNumber"><br><br>
+
+	<label for="mail">Email </label>
+	<input type="Email" name="mail" id="mail"><br><br>
+
+	<label for="web">Personal Website Link </label>
+	<input type="url" name="web" id="web">
+
+
+</fieldset><br>
+
+<input type="submit" name="submit">
+	</form>
+
+</body>
+</html>
